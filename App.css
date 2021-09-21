@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+*{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  background-image: url(images.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container{
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  width: 306px;
+  text-align: center;
+  border: 2px solid #fff;
+  border-radius: 18px;
+  background-color: #fff;
+  padding-top: 25px;
+
+}
+.keypad{
+  margin: 25px;
+}
+
+.button{
+  height: 60px;
+  width: 60px;
+background-color: #fff;
+border: none;
+
+border-radius: 50px;
+}
+
+.input{
+  font-size: 26px;
+  font-weight: 700;
+  height: 55px;
+  width: 240px;
+  background-color: #fff;
+  border: none;
+  border-radius: 25px;
+  text-align: right;
+  
+}
+.input-1{
+  font-size: 12px;
+  font-weight: 400;
+  height: 20px;
+  width: 240px;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-align: right;
+  
+}
+
+
+.highlight{
+  color: rgb(148, 147, 147);
+  font-weight: 400;
+}
+
+.highlight-1{
+  color: #000;
+  font-weight: 400;
+}
+
+.highlight-2{
+  font-size: 24px;
+  background-color: rgb(34, 146, 146);;
+  color: #fff;
+  font-weight: 900;
+}
+
+.highlight-3{
+  font-size: 24px;
+  color: rgb(34, 146, 146);
+  font-weight: 400;
+}
